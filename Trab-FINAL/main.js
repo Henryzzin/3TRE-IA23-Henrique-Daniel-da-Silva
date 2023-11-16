@@ -1,10 +1,12 @@
-const btHamburger = document.querySelector(".menu-hamburger")
-const mainMenu = document.querySelector("nav.main-menu")
+const button = document.querySelector('.menu-button');
+const nav = document.querySelector('.main-menu');
+const icon = document.querySelector('.icon');
 
-btHamburger.addEventListener("click", () => {
-  btHamburger.classList.toggle("opened")
-  mainMenu.classList.toggle("opened")
-})
+button.addEventListener('click', () => {
+  button.classList.toggle('active');
+  nav.classList.toggle('opened');
+  icon.classList.toggle('active');
+});
 
 // ----------------------------------------------------------------------------------
 
