@@ -255,3 +255,20 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+dialog {
+    border: none;
+    background: transparent;
+    margin-left: 40rem;
+    margin-top: 7.7rem;
+}
+
+dialog::backdrop {
+    background: rgba(0 0 0 / 0.8);
+    backdrop-filter: blur(2.5px);
+}
+
+#coletebt {
+    background: transparent;
+    border: none;
+}
